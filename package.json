@@ -1,0 +1,19 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "\"React app for news\"",
+  "main": "index.js",
+  "homepage": "https://Gauri-AB.github.io/myNewsapp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "Gauri katara",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
